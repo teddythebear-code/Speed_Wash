@@ -1,2 +1,6 @@
 @import url("./style/font.css");
 @import url("./style/color.css");
+
+body{
+    background-color: var(--background-color);
+}
