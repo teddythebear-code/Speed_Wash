@@ -1,0 +1,18 @@
+@import url("./stylus/font.css");
+@import url("./stylus/color.css");
+@import url("./stylus/reset.css");
+
+.bookwash{
+    width: 118px;
+    height: 40px;
+    background-color:var( --bookwash-button);
+    color: var(--bookwash-text);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.bookwash button:hover{
+    box-shadow: 5px 5px 3px var(--bookwash-button-hover-shadow);
+    background-color: var(--bookwash-button-hover);
+}

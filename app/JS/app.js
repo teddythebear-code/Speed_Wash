@@ -1,1 +1,2 @@
-console.log('i love you');
+import map from "./Contact.js/map";
+import map from "./Contact.js/form";

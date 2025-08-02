@@ -1,6 +1,73 @@
-@import url("./style/font.css");
-@import url("./style/color.css");
+@import url("./stylus/font.css");
+@import url("./stylus/color.css");
+@import url("./stylus/reset.css");
+@import url("./stylus/button.css");
 
-body{
-    background-color: var(--background-color);
+@import url("./stylus/header.css");
+@import url("./stylus/footer.css");
+
+
+main {
+    padding-left: 160px;
+    padding-right: 160px;
+}
+.info1-content{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.info1-content h1{
+ text-align: center;
+ font-size: 36px;
+ width: auto;
+ line-height: 45px;
+ font-weight: bold;
+}
+.info1-content p{
+ text-align: center;
+ font-size: 16px;
+ line-height: 24px;
+}
+.info1-cards{
+display: flex;
+justify-content: space-between;
+}
+.card{
+    width: 301px;
+    height: 157px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 37px;
+    padding-bottom: 37px;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+}
+.card h2{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.card p{
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.info2 h1{
+     padding-top:80px ;
+    text-align: center;
+    font-size: 36px;
+    width: auto;
+    line-height: 45px;
+    font-weight: bold;
+}
+.info2 p{
+ text-align: center;
+ font-size: 16px;
+ line-height: 24px;
+}
+.info2 div{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
