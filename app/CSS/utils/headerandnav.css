@@ -1,0 +1,154 @@
+@import url(../utils/button.css);
+/* ALL Mobile devices */
+
+@media screen and (max-width: 480px) {
+
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        padding: 9px;
+        border-bottom: 1px solid var(--linear);
+    }
+    .logo h1 {
+        line-height: var(--Mobile-loge_line-height);
+        font-size: var(--Mobile-loge_font-size);
+    }
+    .logo nav{
+        display: none;
+    }
+
+    .hero{
+        color: var(--text-color_3);
+        background-image: url(../../img/pdf/close-up-car-care-washing.jpg);
+        background-size:cover;
+        height: 240px;
+    }
+    .hero h1{
+        line-height: var(--Mobile-h1_line-heigh);
+        font-size: var(--Mobile-h1_font-size);
+        text-align: center;
+        font-weight: bold;
+        padding-top: 12px;
+        padding-right: 12px;
+        padding-left: 12px;
+        padding-bottom: 4px;
+    }
+    .hero p{
+        font-size: var(--Mobile-p1_font-size);
+        text-align: center;
+        padding-top: 12px;
+        padding-right: 12px;
+        padding-left: 12px;
+        padding-bottom: 4px;
+    }
+    .hero img{
+    display: none; 
+}
+}
+
+/* ALL iPads, Tablets */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+}
+
+/* ALL Small screens, laptops */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+/* ALL Desktops, large screens */
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+
+}
+
+/* ALL Extra large screens, TV */
+
+@media screen and (min-width: 1201px) {
+.logo{
+    display: flex;
+    justify-content: space-between;
+    padding:12px 40px ;
+    border: 1px solid var(--linear);
+}
+.logo h1 a{
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    width: 150px;
+    height: 23px;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    width: 480px;
+    height: 40px;
+}
+nav ul{
+    display: flex;
+    width: 330px;
+    height: 40px;
+    justify-content: space-between;
+    list-style: none; 
+}
+nav ul li a {
+     color: var(--text-color);
+     text-decoration: none;
+}
+
+.hero{
+    padding-top: 20px;
+    padding-left:160px;
+    padding-right:160px;
+    position: relative;
+    
+}
+.hero img{
+    border-radius: 10px; 
+}
+
+.hero h1{
+    color: var(--text-color_3);
+    position: absolute;
+    top: 100px;
+    left:190px;
+    font-weight: bold;
+    font-size: 48PX;
+    line-height: 60px;
+    width: 896px;
+    height: 120px;
+    text-align: center;
+    z-index: 1;
+}
+.hero p{
+    color: var(--text-color_3);
+    position: absolute;
+    top: 228px;
+    left:190px;
+    font-size: 16PX;
+    line-height: 24px;
+    width: 896px;
+    height: 120px;
+    text-align: center;
+    z-index: 1;
+}
+.hero button{
+    position: absolute;
+    top: 305px;
+    left:572px;
+    font-size: 16PX;
+    text-align: center;
+    z-index: 1;
+}
+
+.bookwash{
+    width: 118px;
+    height: 40px;
+    border-radius: 10px;    
+}
+
+} 

@@ -1,7 +1,84 @@
-@import url("../stylus/font.css");
-@import url("../stylus/color.css");
-@import url("../stylus/reset.css");
-@import url("../stylus/button.css");
 
-@import url("../stylus/header.css");
-@import url("../stylus/footer.css");
+@import url("../utils/color.css");
+@import url("../utils/reset.css");
+@import url("../utils/font.css");
+
+@import url("../utils/headerandnav.css");
+@import url("../utils/other_footer.css");
+
+/* ALL Mobile devices */
+
+@media screen and (max-width: 480px) {
+
+}
+
+/* ALL iPads, Tablets */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+}
+
+/* ALL Small screens, laptops */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+/* ALL Desktops, large screens */
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+
+}
+
+/* ALL Extra large screens, TV */
+
+@media screen and (min-width: 1201px) {
+   .Services-info{
+    padding: 16px;
+    text-align: center;
+    h1{
+        font-size: 32px;
+        font-weight: bold;
+        line-height: 40px;
+        padding-bottom: 12px;
+    }
+    p{
+        font-size: 14px;
+        line-height: 21px;
+
+    }
+        
+    }
+    .Wash{
+        h2{
+            padding: 20px 16px 12px 16px;
+            font-size: 22px;
+            font-weight: 28px;
+            line-height: 28px;
+        }
+        p{
+            font-size: 16px;
+            line-height: 24px;
+            padding: 4px 16px 12px 16px;
+
+        }
+        .checkbox{
+            /* Todo: add the style to the chechbox */
+            padding: 0px 16px;
+        }
+        .btu{
+            margin:12px 16px;
+            padding: 9.5px 16px;
+            background-color: var(--btu);
+            color: var(--text-color_1);
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;    
+        }
+        .btu:hover{
+            background-color: var(--btu-2);
+            box-shadow: 2px 2px 5px var(--btu-2),-2px -2px 5px var(--btu-2) inset;
+            }
+    }
+   } 
+ 

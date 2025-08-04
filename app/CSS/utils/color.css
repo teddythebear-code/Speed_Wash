@@ -1,0 +1,19 @@
+:root{
+    /* color */
+    --text-color_1:#121417;
+    --text-color_2:#637887;
+    --text-color_3: #FFFFFF;
+    --button-color: #1A8FE5;
+    --button-color-a: #1aa5e5;
+    --hover-button-color: #1a90e5ce;
+    --button-color2: #DBE0E5;
+    --btu:#EDDE29;
+    --btu-2:#eddf3b;
+    --booknow:#d5d5d5;
+    --booknow2:#e8e8e8;
+    --color-2: #E5E8EB;
+    --linear:#0000006b;
+}
+body{
+    background-color: var(--color-1);
+}

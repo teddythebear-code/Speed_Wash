@@ -1,0 +1,84 @@
+@import url("../utils/button.css");
+@import url("../utils/color.css");
+@import url("../utils/reset.css");
+@import url("../utils/font.css");
+
+@import url("../utils/headerandnav.css");
+@import url("../utils/index\ footer.css");
+
+/* ALL Mobile devices */
+
+@media screen and (max-width: 480px) {
+
+}
+
+/* ALL iPads, Tablets */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+}
+
+/* ALL Small screens, laptops */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+/* ALL Desktops, large screens */
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+
+}
+
+/* ALL Extra large screens, TV */
+
+@media screen and (min-width: 1201px) { 
+  
+   .info1-content{
+    padding: 40px 16px;
+    text-align: center;
+   }
+   .info1-cards{
+    padding: 40px 16px;
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+}
+    .card{
+        border: 1px solid var(--linear);
+        border-radius: 2px;
+        padding: 16px;
+        img{
+            width: 24px;
+            height: 24px;
+        }
+        h2{
+            padding-top: 16px;
+            text-align: left;
+            font-size:16px ;
+            line-height: 20px;
+            }
+            p{
+            text-align: left;
+            font-size:14px ;
+            line-height: 21px;
+            padding-bottom: 21px;
+        }
+    }
+    .info2{
+    text-align: center;
+    h1{
+        padding-top: 80px;
+        font-size: 32px;
+        font-weight: bold;
+        line-height: 45px;
+    }
+    p{
+        padding-top: 8px;
+        padding-bottom: 32px;
+    }
+    .bookwash{
+        margin-bottom: 80px;
+    }
+   }
+} 

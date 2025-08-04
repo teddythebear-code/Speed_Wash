@@ -1,0 +1,14 @@
+@import url("./stylus/font.css");
+@import url("./stylus/color.css");
+@import url("./stylus/reset.css");
+
+.bookwash{
+    background-color:var( --button-color);
+    color: var(--button-color2);
+    border: none;
+    cursor: pointer;    
+}
+ .bookwash:hover{
+                background-color: var(--button-color-a);
+                box-shadow: 2px 2px 5px var(--hover-button-color),-2px -2px 5px var(--hover-button-color) inset;
+            }

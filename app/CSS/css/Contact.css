@@ -1,7 +1,37 @@
-@import url("../stylus/font.css");
-@import url("../stylus/color.css");
-@import url("../stylus/reset.css");
-@import url("../stylus/button.css");
+@import url("../utils/button.css");
+@import url("../utils/color.css");
+@import url("../utils/reset.css");
+@import url("../utils/font.css");
 
-@import url("../stylus/header.css");
-@import url("../stylus/footer.css");
+@import url("../utils/headerandnav.css");
+@import url("../utils/other_footer.css");
+
+/* ALL Mobile devices */
+
+@media screen and (max-width: 480px) {
+
+}
+
+/* ALL iPads, Tablets */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+}
+
+/* ALL Small screens, laptops */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+/* ALL Desktops, large screens */
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+
+}
+
+/* ALL Extra large screens, TV */
+
+@media screen and (min-width: 1201px) {
+
+} 

@@ -1,0 +1,16 @@
+@import url("./stylus/font.css");
+@import url("./stylus/color.css");
+@import url("./stylus/reset.css");
+
+.booknow{
+    border-radius: 20px;
+    padding: 9.5px 92.83px;
+    background-color:var(--booknow);
+    color: var(--text-color_1);
+    border: none;
+    cursor: pointer;    
+}
+ .booknow:hover{
+                background-color: var( --booknow2);
+                box-shadow: 2px 2px 5px var( --booknow),-2px -2px 5px var(--booknow) inset;
+            }

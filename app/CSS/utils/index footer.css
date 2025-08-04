@@ -1,0 +1,43 @@
+/* ALL Mobile devices */
+
+@media screen and (max-width: 480px) {
+    
+}
+
+/* ALL iPads, Tablets */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+}
+
+/* ALL Small screens, laptops */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+/* ALL Desktops, large screens */
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+
+}
+
+/* ALL Extra large screens, TV */
+
+@media screen and (min-width: 1201px) {
+footer {
+    padding-left: 160px;
+    padding-right: 160px;
+}
+footer .Privacy{
+    padding-top: 40px;
+display: flex;
+justify-content: space-between;
+font-style: 16px;
+line-height: 24px;
+}
+.copy{
+    text-align: center;
+    padding: 40px;
+}
+}
